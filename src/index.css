@@ -1,0 +1,23 @@
+nav a{
+  margin-right: 50px;
+}/* Navbar.css */
+nav {
+  display: flex;
+  justify-content:flex-end;
+  border: 1px solid rgb(3, 142, 160); /* Border style */
+  border-radius: 5px; /* Optional: Add rounded corners */
+  padding: 20px; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+body{
+  background-image:url("https://png.pngtree.com/thumb_back/fh260/background/20220217/pngtree-blue-technology-background-in-the-era-of-aesthetic-technology-and-intelligence-image_945156.jpg");
+  background-size: cover;
+background-repeat: no-repeat;
+}
+@media screen and (max-width: 768px) {
+  /* Adjust margin for navigation links */
+  nav a {
+    margin-right: 20px;
+  }
+}
